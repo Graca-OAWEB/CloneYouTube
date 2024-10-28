@@ -508,7 +508,7 @@ aside {
     form input {
         display: flex;
         align-items: center;
-        width: 100%;
+        width:90%;
         height: 100%;
         padding: 0px 1rem;
     }
