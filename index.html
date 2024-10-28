@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone You Tube</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+
+<body>
+    <header>
+        <div class="boxlogo" tabindex="0" role="banner" aria-label="logo e menu">
+            <div class="menu" tabindex="0" role="navigation" aria-label="menu principal">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img src="./images/menu/logoyoutube.png" alt="logo youtube" width="50" height="50">
+        </div>
+        <div class="boxsearch" tabindex="0" role="search" aria-label="barra de pesquisa">
+            <form action="/search" method="get">
+                <label for="search">pesquisar:</label>
+                <input type="text" id="search" name="q" placeholder="" required tabindex="0">
+                <button type="submit" aria-label="botão de pesquisa">
+                    <img src="./images/menu/search.png" alt="ícone de pesquisa" width="20"
+                        height="20">
+                </button>
+            </form>
+        </div>
+
+        <div class="boxprofile" tabindex="0" role="complementary"
+            aria-label="ícones de perfil e notificações">
+            <img src="./images/menu/video.png" alt="ícone câmera" width="20" height="20"
+                tabindex="0">
+            <img src="./images/menu/bell.png" alt="ícone sino" width="20" height="20" tabindex="0">
+            <img src="./images/menu/avatar.png" alt="avatar" width="20" height="20" tabindex="0">
+        </div>
+    </header>
+
+    <main>
+        <div class="containerVideo" tabindex="0" role="main" aria-label="conteúdo principal">
+            <iframe tabindex="0" aria-label="vídeo incorporado" width="560" height="315"
+                src="https://www.youtube.com/embed/3JQ-CF8lVwU?si=DHBfJLCtXZv8tHPM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h1>semana front-end | dia 01: construindo uma landing page no mundo invertido com html
+                e css</h1>
+
+            <div class="boxviews">
+                <div class="boxshare" tabindex="0" role="contentinfo"
+                    aria-label="informações e botões de compartilhamento">
+                    <img src="./images/poster/channelavatar.png" alt="logo da dio" width="50"
+                        height="50">
+
+                    <div class="subscribercount" tabindex="0"
+                        aria-label="informação de inscritos do canal">
+                        <h3>dio</h3>
+                        <p>83,3 mil inscritos</p>
+                    </div>
+                </div>
+                <button tabindex="0" aria-label="botão de inscrição">inscreva-se</button>
+
+                <ul tabindex="0" role="list" aria-label="lista de opções de interação" class="list"
+                    id="list">
+                    <li><img src="./images/poster/thumbs-up.png" alt="ícone gostei" width="20"
+                            height="20"> 2 mil</li>
+                    <li><img src="./images/poster/thumbs-down.png" alt="ícone não gostei" width="20"
+                            height="20"> não gostei</li>
+                    <li><img src="./images/poster/share-2.png" alt="ícone compartilhar" width="20"
+                            height="20"> compartilhar</li>
+                    <li><img src="./images/poster/download.png" alt="ícone download" width="20"
+                            height="20"> download</li>
+                </ul>
+
+            </div>
+            <h2>28.418 visualizações transmitido ao vivo em 23 ago. de 2022</h2>
+            <p id="paragraph-content-video">inicie uma aventura imersiva no mundo do front-end com
+                html e css.
+                para isso,
+                criaremos uma landing page com a temática da série stranger things, a qual contará
+                com a implementação de um theme switcher (light e dark) para explorarmos os
+                mistérios do mundo invertido.</p>
+        </div>
+
+        <aside role="complementary">
+            <div class="card card1" role="article" tabindex="0"
+                aria-label="geração tech unimed - bh - ciência de dados">
+                <img src="./images/aside/geracao-tech.png" alt="poster geração tech" width="200"
+                    height="150">
+                <div class="contentCard">
+                    <h2>geração tech unimed - bh - ciência de dados</h2>
+                    <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                            class="letter-up">o</span>ne</p>
+                    <p>2,1 mil visualizações<br>transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="card card2" role="article" tabindex="0" aria-label="scrum talks">
+                <img src="./images/aside/scrum.png" alt="poster scrum" width="200" height="150">
+                <div class="contentCard">
+                    <h2>scrum talks</h2>
+                    <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                            class="letter-up">o</span>ne</p>
+                    <p>1,6 mil visualizações<br>transmitido há 3 dias</p>
+                </div>
+            </div>
+            <div class="card card3" role="article" tabindex="0"
+                aria-label="machine learning avançado - fast track">
+                <img src="./images/aside/machine-learning.png" alt="poster machine learning"
+                    width="200" height="150">
+                <div class="contentCard">
+                    <h2>machine learning avançado - fast track</h2>
+                    <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                            class="letter-up">o</span>ne</p>
+                    <p>1,7 mil visualizações<br>transmitido há 4 dias</p>
+                </div>
+            </div>
+            <div class="card card4" role="article" tabindex="0"
+                aria-label="global skills #2 - project planning">
+
+                <img src="./images/aside/global-skills.png" alt="poster global skills" width="200"
+                    height="150">
+                <div class="contentCard">
+                    <h2>global skills #2 - project planning</h2>
+                    <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                            class="letter-up">o</span>ne</p>
+                    <p>971 visualizações<br>transmitido há 5 dias</p>
+                </div>
+            </div>
+            </div>
+            <div class="card card5" role="article" tabindex="0"
+                aria-label="como aprender a programar python do zero">
+                <img src="./images/aside/python-do-zero.png" alt="poster python do zero" width="200"
+                    height="150">
+                <div class="contentCard">
+                    <div class="contentCard">
+                        <h2>como aprender a programar python do zero</h2>
+                        <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                                class="letter-up">o</span>ne</p>
+                        <p>711 visualizações<br>transmitido há 6 dias</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card6" role="article" tabindex="0"
+                aria-label="geração tech unimed - bh - ciência de dados">
+                <img src="./images/aside/geracao-tech.png" alt="poster geração tech" width="200"
+                    height="150">
+                <div class="contentCard">
+                    <h2>geração tech unimed - bh - ciência de dados</h2>
+                    <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                            class="letter-up">o</span>ne</p>
+                    <p>2,1 mil visualizações<br>transmitido há 2 dias</p>
+                </div>
+            </div>
+            <div class="card card7" role="article" tabindex="0" aria-label="scrum talks">
+                <img src="./images/aside/scrum.png" alt="poster scrum" width="200" height="150">
+                <div class="contentCard">
+                    <h2>scrum talks</h2>
+                    <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                            class="letter-up">o</span>ne</p>
+                    <p>1,6 mil visualizações<br>transmitido há 3 dias</p>
+                </div>
+            </div>
+            <div class="card card8" role="article" tabindex="0"
+                aria-label="machine learning avançado - fast track">
+                <img src="./images/aside/machine-learning.png" alt="poster machine learning"
+                    width="200" height="150">
+                <div class="contentCard">
+                    <h2>machine learning avançado - fast track</h2>
+                    <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                            class="letter-up">o</span>ne</p>
+                    <p>1,7 mil visualizações<br>transmitido há 4 dias</p>
+                </div>
+            </div>
+            <div class="card card9" role="article" tabindex="0"
+                aria-label="global skills #2 - project planning">
+                <img src="./images/aside/global-skills.png" alt="poster global skills" width="200"
+                    height="150">
+                <div class="contentCard">
+                    <h2>global skills #2 - project planning</h2>
+                    <p class="channel">digital<span class="letter-up">i</span>nnovation<span
+                            class="letter-up">o</span>ne</p>
+                    <p>971 visualizações<br>transmitido há 5 dias</p>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer tabindex="0" role="contentinfo" aria-label="informações do rodapé">
+    </footer>
+</body>
+
+<script src="./js/main.js"></script>
+</body>
+
+</html>
