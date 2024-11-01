@@ -258,8 +258,8 @@ header form {
 }
 
 .menu span {
-    width: 3rem;
-    height: 3px;
+    width: 2.5rem;
+    height: 2.5px;
     background-color: var(--color-black);
     padding: 0px;
 }
