@@ -227,6 +227,7 @@ header {
     align-items: center;
     position: relative;
     background-color: var(--bg-white);
+    overflow: hidden;
 }
 
 header form {
