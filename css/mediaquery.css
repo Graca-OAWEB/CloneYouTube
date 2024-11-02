@@ -45,7 +45,7 @@
         display: flex;
         justify-content: center;
         position: absolute;
-        bottom: 1rem;
+        bottom: 2rem;
         width: 100%;
     }
 
@@ -56,8 +56,8 @@
 
     .boxprofile img {
         flex: 1;
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
         object-fit: contain;
     }
 
@@ -95,9 +95,7 @@
 
     .boxviews .boxshare, .boxviews button {
         position: absolute;
-        width: 100%;
         top: 0.5rem;
-        width: 50%;
     }
 
     .boxviews .boxshare {
@@ -147,18 +145,23 @@
         padding: 1rem;
     }
 
-    .boxlogo, .boxlogo img {
-        width: 10rem;
+    .boxlogo {
+        width: 11rem;
         height: 100%;
+    }
+
+    .boxlogo img {
+        width: 8rem;
+        height: 2.5rem;
         object-fit: contain;
     }
 
     .boxlogo img {
-        padding-left: 1.5rem;
+        padding-left: 1.1rem;
     }
 
     .menu, .menu span {
-        width: 2.5rem;
+        width: 2.3rem;
     }
 
     .menu span {
@@ -173,6 +176,7 @@
     .boxprofile img {
         width: 2rem;
         height: 2rem;
+        object-fit: contain;
     }
 
     form input {
@@ -222,9 +226,16 @@
         padding: 0px;
     }
 
+
     .card img {
+        width: 20rem;
+        aspect-ratio: 16/09;
+        height: 8rem;
+        object-fit: cover;
+    }
+
+    .card:nth-child(2), .card:nth-child(7) {
         max-width: 20rem;
-        max-height: 8rem;
     }
 
     .card .contentCard h2 {

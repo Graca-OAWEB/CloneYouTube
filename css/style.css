@@ -116,7 +116,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6, p, span {
     text-wrap: balance;
-    padding: 1rem 0px 0px 0px;
+    padding: 0.8rem 0px 0px 0px;
 }
 
 h1, h2, h3, .boxviews .list li {
@@ -134,38 +134,39 @@ p {
     color: var(--color-gray)
 }
 
-@media screen and (min-width: 100px) and (max-width: 1920px) {
 
-    h1 {
-        font-size: clamp(1.2rem, 1.2vw, 8rem);
-    }
-
-    h2 {
-        font-size: clamp(0.8rem, 0.8vw, 8rem);
-    }
-
-    h3, legend {
-        font-size: clamp(0.8rem, 0.8vw, 8rem);
-    }
-
-    p,
-    ul,
-    ol,
-    li, ul li a {
-        font-size: clamp(0.8rem, 0.8vw, 5rem);
-    }
-
-
-    button a,
-    small,
-    caption, input,
-    textarea,
-    select,
-    button,
-    label, option {
-        font-size: clamp(1rem, 1.3vw, 5rem);
-    }
+h1 {
+    font-size: clamp(20px, 1.5vw, 8rem);
 }
+
+h2 {
+    font-size: clamp(14px, 1.1vw, 8rem);
+    line-height: 1.5rem;
+}
+
+h3, legend {
+    font-size: clamp(0.8rem, 1vw, 8rem);
+    line-height: 1.3rem;
+}
+
+p,
+ul,
+ol,
+li, ul li a {
+    font-size: clamp(12px, 0.8vw, 5rem);
+    line-height: 1.2rem;
+}
+
+
+small,
+caption, input,
+textarea,
+select,
+button,
+label, option {
+    font-size: clamp(1rem, 1.3vw, 5rem);
+}
+
 
 :is(h2,
     h3, h4, p, a, li, ul li, button) {
@@ -175,50 +176,6 @@ p {
 .element-navigation {
     cursor: pointer;
 }
-
-@media screen and (min-width: 1921px) {
-    h1 {
-        font-size: clamp(2.5rem, 3vw, 8rem);
-    }
-
-    h2 {
-        font-size: clamp(2rem, 3vw, 8rem);
-    }
-
-    h3, legend {
-        font-size: clamp(3rem, 2vw, 8rem);
-    }
-
-    h4 {
-        font-size: clamp(3.5rem, 2vw, 6rem);
-    }
-
-    h5 {
-        font-size: clamp(3rem, 1vw, 6rem);
-    }
-
-    p,
-    ul,
-    ol,
-    li, li a {
-        font-size: clamp(2.5rem, 1.3vw, 7rem);
-    }
-
-    small,
-    caption, input,
-    textarea,
-    select,
-    button,
-    label, option {
-        font-size: clamp(3rem, 1.3vw, 7rem);
-    }
-
-}
-
-
-/*======================= HEADER ======================*/
-
-
 
 /*======================= HEADER ======================*/
 header {
@@ -302,7 +259,7 @@ form button img {
 .boxviews {
     display: flex;
     justify-content: flex-start;
-    padding: 0.5rem;
+    padding: 1rem 0px;
     gap: 1rem;
 }
 
@@ -356,6 +313,7 @@ form button img {
     transition: 0.5s ease;
     border: none;
     border-radius: 0.3rem;
+    font-size: clamp(14px, 1.1vw, 8rem);
 }
 
 .boxviews button:hover {
