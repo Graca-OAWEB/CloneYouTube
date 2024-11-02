@@ -186,7 +186,7 @@
     /*======================= CONTENT ======================*/
 
     .containerVideo {
-        width: 75vw;
+        width: 70vw;
         min-height: 100vh;
         gap: 1.5rem;
     }
@@ -229,12 +229,13 @@
 
     .card img {
         width: 20rem;
+        max-width: 20rem;
         aspect-ratio: 16/09;
         height: 8rem;
         object-fit: cover;
     }
 
-    .card:nth-child(2), .card:nth-child(7) {
+    .card:nth-child(2), .card:nth-child(4), .card:nth-child(7), .card:nth-child(8) {
         max-width: 20rem;
     }
 

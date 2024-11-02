@@ -241,8 +241,7 @@ form input {
 }
 
 form button {
-    justify-content: center;
-    align-items: center;
+    align-content: center;
     background-color: #F8F8F8;
     width: 3rem;
     height: 2.5rem;
