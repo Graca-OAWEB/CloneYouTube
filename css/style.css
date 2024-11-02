@@ -259,6 +259,7 @@ form button img {
 .boxviews {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     padding: 1rem 0px;
     gap: 1rem;
 }
@@ -286,7 +287,6 @@ form button img {
 
 .boxviews .list {
     width: auto;
-    flex-wrap: wrap;
     gap: 1.3rem;
     text-transform: capitalize;
 }
@@ -298,7 +298,7 @@ form button img {
 .boxviews .list img {
     width: 2rem;
     height: 2rem;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .boxviews button {
