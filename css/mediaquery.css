@@ -2,7 +2,11 @@
 
 
 @media screen and (min-width: 100px) and (max-width: 900px) {
+
     /*======================= HEADER ======================*/
+    p {
+        font-size: max(0.8rem, 1rem);
+    }
 
     main, header {
         padding: 1rem;
@@ -73,11 +77,14 @@
         object-fit: cover;
     }
 
+    h1 {
+        line-height: 3vh;
+    }
+
     .boxviews {
         position: relative;
-        height: auto;
-        padding: 1.3rem 0px;
-        height: 8rem;
+        margin: 1.5rem 0px;
+        height: 6rem;
     }
 
     .boxviews .list {
@@ -203,6 +210,10 @@
         padding: 1.5rem 0px;
         width: 40rem;
         max-width: 40vw;
+    }
+
+    h1 {
+        line-height: 4vh;
     }
 
     .boxviews {
